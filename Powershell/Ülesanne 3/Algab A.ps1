@@ -1,0 +1,1 @@
+Get-Service | Where-Object {$_.displayName.StartsWith("A")}
